@@ -1,6 +1,6 @@
 # React Projects – Celebal Internship
 
-This repository contains a collection of React-based projects developed as part of my internship at **Celebal Technologies**. These projects demonstrate core React concepts, component-based architecture, state management, and hands-on implementation of real-world use cases.
+This repository contains a collection of React-based projects developed as part of my internship at **Celebal Technologies**. 
 
 ---
 
@@ -18,24 +18,25 @@ This repository contains a collection of React-based projects developed as part 
 ## 📂 Folder Structure
 
 Each project is placed in a separate folder for better organization. Typical structure:
+React-Projects/
+├── 01basicreact/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+├── ...
+└── README.md
 
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React.js (with Create React App)
-- JavaScript (ES6+)
-- HTML5, CSS3
+- React.js 
+- JavaScript 
+- HTML, CSS
 - VS Code
 - Git & GitHub
-
----
-
-## 🔧 Getting Started
-
-To run any project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/mradulakshi/React-Projects.git
