@@ -1,12 +1,41 @@
-# React + Vite
+# React Projects – Celebal Internship
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a collection of React-based projects developed as part of my internship at **Celebal Technologies**. These projects demonstrate core React concepts, component-based architecture, state management, and hands-on implementation of real-world use cases.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Projects Included
 
-## Expanding the ESLint configuration
+> 📌 This list will grow as new projects are added.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **01basicreact**  
+   Basic React app demonstrating components, props, state, and JSX.
+
+<!-- Add more projects like this as you build them -->
+
+---
+
+## 📂 Folder Structure
+
+Each project is placed in a separate folder for better organization. Typical structure:
+
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js (with Create React App)
+- JavaScript (ES6+)
+- HTML5, CSS3
+- VS Code
+- Git & GitHub
+
+---
+
+## 🔧 Getting Started
+
+To run any project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mradulakshi/React-Projects.git
