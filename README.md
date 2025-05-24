@@ -19,17 +19,17 @@ This repository contains a collection of React-based projects developed as part 
 
 Each project is placed in a separate folder for better organization. Typical structure:
 
-React-Projects/
-├── 01basicreact/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   └── index.js
-│   ├── package.json
-│   └── README.md
-├── ...
-└── README.md
+React-Projects/  
+├── 01basicreact/  
+│   ├── public/  
+│   ├── src/  
+│   │   ├── components/  
+│   │   ├── App.js  
+│   │   └── index.js  
+│   ├── package.json  
+│   └── README.md  
+├── ...  
+└── README.md  
 
 
 
