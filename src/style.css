@@ -1,0 +1,94 @@
+form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  margin: 50px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+  background-color: #fff;
+}
+
+.errorMsg {
+  color: #e63946;
+  font-size: 13px;
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+
+.phone-input {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.phone-input select,
+.phone-input input {
+  flex: 1;
+}
+
+button[type="button"] {
+  background-color: transparent;
+  border: none;
+  color: #4a90e2;
+  font-weight: bold;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+  background-color: #357ab8;
+}
+
+@media (max-width: 600px) {
+  form {
+    padding: 20px;
+  }
+
+  .phone-input {
+    flex-direction: column;
+  }
+}
